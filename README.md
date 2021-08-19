@@ -27,8 +27,8 @@
     
     <p>Comandos Basicos para hacer scaffold</p>
     <ul>
-   <li> php artisan infyom:scaffold <Nombre Modelo> --fromTable --tableName=<nombre tabla></li>
-    <li>php artisan   infyom:api_scaffold si se quiere conn api tambien</li>
-   <li>php artisan infyom:api   solo el api</li>
+        <li> php artisan infyom:scaffold (Nombre Modelo) --fromTable --tableName=(nombre tabla) <b> solo web </b></li>
+        <li>php artisan   infyom:api_scaffold<b> si se quiere conn api tambien</b></li>
+        <li>php artisan infyom:api  <b> solo el api</b></li>
     </ul>
     
