@@ -1,5 +1,5 @@
 
-<h1 align="center">Fubuapp</h1>
+<h1 align="center">Laravel Base core ui Infyom</h1>
 <p>pasos para instalar </p>
 <ul>
     <li>git clone</li>
