@@ -23,3 +23,12 @@
         <li>"laravel/passport": "^9.3",     <b> para accesos apis </b></li>
         <li>"laravel/telescope": "*",        <b> monitoreo de acciones en el sistema errore, tiempos de consultas, X </b></li>
     </ul>
+    
+    
+    <p>Comandos Basicos para hacer scaffold</p>
+    <ul>
+   <li> php artisan infyom:scaffold <Nombre Modelo> --fromTable --tableName=<nombre tabla></li>
+    <li>php artisan   infyom:api_scaffold si se quiere conn api tambien</li>
+   <li>php artisan infyom:api   solo el api</li>
+    </ul>
+    
