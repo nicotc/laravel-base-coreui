@@ -24,11 +24,9 @@
         <li>"laravel/telescope": "*",        <b> monitoreo de acciones en el sistema errore, tiempos de consultas, X </b></li>
     </ul>
     
-    
-    <p>Comandos Basicos para hacer scaffold</p>
-    <ul>
-        <li> php artisan infyom:scaffold (Nombre Modelo) --fromTable --tableName=(nombre tabla) <b> solo web </b></li>
-        <li>php artisan   infyom:api_scaffold<b> si se quiere conn api tambien</b></li>
-        <li>php artisan infyom:api  <b> solo el api</b></li>
-    </ul>
-    
+ <p>Comandos Basicos para hacer scaffold</p>
+ <ul>
+    <li> php artisan infyom:scaffold (Nombre Modelo) --fromTable --tableName=(nombre tabla) <b> solo web </b></li>
+    <li>php artisan   infyom:api_scaffold<b> si se quiere conn api tambien</b></li>
+    <li>php artisan infyom:api  <b> solo el api</b></li>
+  </ul>
