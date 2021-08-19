@@ -52,6 +52,8 @@ class UsersController extends AppBaseController
     public function store(CreateUsersRequest $request)
     {
         $input = $request->all();
+        
+       $input['password'] = bcrypt($input['password']);
 
         $users = $this->usersRepository->create($input);
 
