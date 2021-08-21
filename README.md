@@ -11,7 +11,7 @@
     <li>php artisan key:generate</li>
     <li>php artisan storage:link</li>
     <li>php artisan passport:keys</li>
-    <li>php artisan migrate</li>
+    <li>php artisan migrate:refresh --seed</li>
 </ul>
 
 <p>Instalaciones ya configuradas</p>
