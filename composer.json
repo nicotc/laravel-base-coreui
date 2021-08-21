@@ -29,7 +29,8 @@
         "yajra/laravel-datatables-buttons": "*",
         "yajra/laravel-datatables-html": "*",
         "yajra/laravel-datatables-oracle": "~9.0",
-        "barryvdh/laravel-snappy": "*"
+        "barryvdh/laravel-snappy": "*",
+        "infyomlabs/generator-builder": "dev-master"
 
     },
     "require-dev": {

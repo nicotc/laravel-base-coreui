@@ -9,6 +9,7 @@ use PhpOffice\PhpSpreadsheet\IOFactory;
 // use PhpOffice\PhpWord\Writer\HTML;
 use PhpOffice\PhpSpreadsheet;
 use Spatie\Permission\Models\Role;
+use App\User;
 
 class HomeController extends Controller
 {
@@ -30,7 +31,9 @@ class HomeController extends Controller
     public function index()
     {
 
-  
+       // $users = User::role('root')->get();
+
+        // dd($users);
         return view('home');
 
 
