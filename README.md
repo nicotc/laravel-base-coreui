@@ -1,6 +1,6 @@
 
 <h1 align="center">Laravel Base core ui Infyom</h1>
-<p>pasos para instalar </p>
+<p>Pasos para instalar </p>
 <ul>
     <li>git clone</li>
     <li>composer install</li>
@@ -25,7 +25,7 @@
         <li>"laravel/telescope": "*",        <b> monitoreo de acciones en el sistema errores, tiempos de consultas, X </b></li>
     </ul>
     
- <p>Comandos Basicos para hacer scaffold</p>
+ <p>Comandos Básicos para hacer scaffold</p>
  <ul>
     <li>php artisan infyom:scaffold (Nombre Modelo) --fromTable --tableName=(nombre tabla) <b> solo web </b></li>
     <li>php artisan infyom:api_scaffold<b> si se quiere conn api también</b></li>
